@@ -1,6 +1,6 @@
 import inspect
 import requests
-from Exercise1 import function, file_recording
+from Exercise1 import function
 
 
 @function
@@ -21,4 +21,4 @@ def get_request():
 
 
 if __name__ == "__main__":
-    file_recording(get_request())
+    get_request()
